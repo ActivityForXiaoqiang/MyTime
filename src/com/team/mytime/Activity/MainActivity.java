@@ -1,9 +1,9 @@
-package com.team.mytime;
+package com.team.mytime.Activity;
+
+import com.team.mytime.R;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 public class MainActivity extends Activity {
 
