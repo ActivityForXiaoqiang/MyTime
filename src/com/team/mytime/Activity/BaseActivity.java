@@ -11,6 +11,6 @@ public class BaseActivity extends FragmentActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(arg0);
 		Tool.NoTitleBar(this);
-		
+		///ssssssssss
 	}
 }
