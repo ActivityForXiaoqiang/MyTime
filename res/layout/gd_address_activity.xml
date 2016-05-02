@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#666" >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
+            android:background="#222"
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:clickable="true"
+            android:visibility="gone"
+            android:layout_marginRight="5dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="#00f"
+            android:id="@+id/textView1"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:text="确定" />
+
+    </LinearLayout>
+
+    <ListView
+        android:divider="#fff"
+        android:background="#fff"
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
