@@ -6,6 +6,7 @@ import com.team.mytime.Activity.MainActivity;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.widget.EditText;
 import android.widget.Toast;
 import cn.bmob.v3.Bmob;
 import cn.bmob.v3.listener.SaveListener;
@@ -76,6 +77,22 @@ public class BmobHttpRequest {
 			@Override
 			public void onFailure(int arg0, String arg1) {
 				Toast.makeText(context, arg1, 0).show();
+			}
+		});
+	}
+
+	public void doSendMessage(final Context con, Message m, final EditText ed) {
+		m.save(con, new SaveListener() {
+
+			@Override
+			public void onSuccess() {
+				Toast.makeText(con, "添加成功", 0).show();
+				ed.setText("");
+			}
+
+			@Override
+			public void onFailure(int arg0, String arg1) {
+				Toast.makeText(con, arg1, 0).show();
 			}
 		});
 	}

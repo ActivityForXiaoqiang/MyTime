@@ -79,6 +79,7 @@
         <activity android:name="com.team.mytime.Activity.MySelfActivity" >
         </activity>
           <activity android:name="com.team.mytime.Activity.AddActivity"/>
+           <activity android:name="com.team.mytime.Activity.ChatRoomActivity"/>
     </application>
 
 </manifest>

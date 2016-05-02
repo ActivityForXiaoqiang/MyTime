@@ -21,28 +21,34 @@
         android:padding="3dp" >
 
         <EditText
+            android:id="@+id/send_message_content"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@null" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/send_message_btn"
+            android:layout_width="70dp"
             android:layout_height="match_parent"
             android:background="@color/seablue"
+            android:clickable="true"
             android:gravity="center"
-            android:padding="3dp"
+            android:padding="5dp"
             android:text="发送"
             android:textColor="#fff" />
     </LinearLayout>
 
     <ListView
+        android:id="@+id/chatroom_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" 
-        android:layout_marginTop="50dp"
+        android:layout_height="match_parent"
         android:layout_marginBottom="30dp"
-        >
+        android:layout_marginTop="50dp"
+        android:dividerHeight="5dp"
+         android:divider="#00000000"  >
     </ListView>
 
 </RelativeLayout>

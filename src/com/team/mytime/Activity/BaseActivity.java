@@ -8,10 +8,10 @@ import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 public class BaseActivity extends FragmentActivity {
-	ImageView back;
+	LinearLayout back;
 
 	@Override
 	protected void onCreate(Bundle arg0) {
@@ -22,7 +22,7 @@ public class BaseActivity extends FragmentActivity {
 	}
 
 	void setback() {
-		back = (ImageView) findViewById(R.id.top_back);
+		back = (LinearLayout) findViewById(R.id.top_back);
 		back.setOnClickListener(new OnClickListener() {
 
 			@Override

@@ -2,14 +2,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:background="@color/gray_bg">
 
     <include layout="@layout/activity_top_bar" />
 
     <ListView
         android:id="@+id/main_listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" 
+         android:dividerHeight="5dp"
+          android:divider="#00000000" 
+          android:background="#00000000"
+          >
     </ListView>
 
 </LinearLayout>
