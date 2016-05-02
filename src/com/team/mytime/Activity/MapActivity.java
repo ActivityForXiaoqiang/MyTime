@@ -99,9 +99,9 @@ public class MapActivity extends BaseActivity implements OnClickListener {
 		// 构建Marker图标
 		BitmapDescriptor bitmap;
 		if (isstart) {
-			bitmap = BitmapDescriptorFactory.fromResource(R.drawable.ic_launcher);
+			bitmap = BitmapDescriptorFactory.fromResource(R.drawable.map_iocn);
 		} else {
-			bitmap = BitmapDescriptorFactory.fromResource(android.R.drawable.ic_menu_search);
+			bitmap = BitmapDescriptorFactory.fromResource(R.drawable.supervision_createsignin_loaation_icon_red);
 		}
 		// 构建MarkerOption，用于在地图上添加Marker
 		OverlayOptions option = new MarkerOptions().position(point).icon(bitmap);
