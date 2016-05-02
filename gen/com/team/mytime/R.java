@@ -17,6 +17,9 @@ public final class R {
     public static final class drawable {
         public static final int gradient_color=0x7f020000;
         public static final int ic_launcher=0x7f020001;
+        public static final int map_iocn=0x7f020002;
+        public static final int supervision_createsignin_loaation_icon_gray=0x7f020003;
+        public static final int supervision_createsignin_loaation_icon_red=0x7f020004;
     }
     public static final class id {
         public static final int bmapView=0x7f070000;

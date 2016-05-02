@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#666" >
+    android:background="#F6F4F3" >
 
     <LinearLayout
         android:gravity="center_vertical"
@@ -15,12 +15,12 @@
             android:id="@+id/imageView1"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher" />
+            android:src="@android:drawable/ic_menu_search" />
 
         <EditText
             android:layout_marginRight="5dp"
             android:padding="5dp"
-            android:background="#222"
+            android:background="#fff"
             android:id="@+id/editText1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,8 +45,8 @@
     </LinearLayout>
 
     <ListView
+        android:layout_marginTop="1dp"
         android:divider="#fff"
-        android:background="#fff"
         android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
