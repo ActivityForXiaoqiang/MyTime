@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="time">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="type">
+        <item>学习</item>
+        <item>工作</item>
+        <item>阅读</item>
+        <item>聊天</item>
+    </string-array>
+
+</resources>

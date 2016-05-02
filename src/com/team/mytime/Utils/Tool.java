@@ -6,8 +6,11 @@ import java.util.List;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.text.TextUtils;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class Tool {
 	/**
@@ -77,5 +80,25 @@ public class Tool {
 		editor.remove(KEY);
 		editor.clear();
 		editor.commit();
+	}
+	
+	
+	public static boolean Check(Context con, EditText ed, EditText pwd) {
+		String str = ed.getText().toString();
+		if (TextUtils.isEmpty(str)) {
+			Toast.makeText(con, "手机号不能为空", 0).show();
+			return false;
+		}
+
+		if (str.length() != 11) {
+			Toast.makeText(con, "请输入正确手机号", 0).show();
+			return false;
+		}
+		if (TextUtils.isEmpty(pwd.getText().toString())) {
+			Toast.makeText(con, "密码不能为空", 0).show();
+			return false;
+		}
+		return true;
+
 	}
 }

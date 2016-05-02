@@ -3,5 +3,10 @@
 
     <color name="seablue">#7bbfea</color>
     <color name="shenglan">#B0E0E6</color>
-
+ <color name="gray_bg">#f6f6f3</color>
+    <color name="blue_bg">#2a7dce</color>
+    <color name="red_text">#ff3b14</color>
+    <color name="gray_text">#5f6368</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="light_blue">#6593cb</color>
 </resources>
