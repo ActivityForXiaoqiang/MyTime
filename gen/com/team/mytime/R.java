@@ -33,10 +33,13 @@ public final class R {
         public static final int head=0x7f020005;
         public static final int ic_launcher=0x7f020006;
         public static final int login_btn=0x7f020007;
-        public static final int mine=0x7f020008;
-        public static final int mine_banner=0x7f020009;
-        public static final int regis_btn_bg=0x7f02000a;
-        public static final int supervision_personalresume_add_bg=0x7f02000b;
+        public static final int map_iocn=0x7f020008;
+        public static final int mine=0x7f020009;
+        public static final int mine_banner=0x7f02000a;
+        public static final int regis_btn_bg=0x7f02000b;
+        public static final int supervision_createsignin_loaation_icon_gray=0x7f02000c;
+        public static final int supervision_createsignin_loaation_icon_red=0x7f02000d;
+        public static final int supervision_personalresume_add_bg=0x7f02000e;
     }
     public static final class id {
         public static final int Myself_head=0x7f080013;
