@@ -61,7 +61,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/myself_dingdan"
+        android:id="@+id/myself_tracks"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginTop="15dp"
@@ -91,7 +91,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/myself_kajuan"
+        android:id="@+id/myself_gOut"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginTop="15dp"
@@ -108,7 +108,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
             android:gravity="center"
-            android:text="百度地图"
+            android:text="说走就走"
             android:textColor="#000"
             android:textSize="17sp" />
 
@@ -121,7 +121,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/myself_jifen"
+        android:id="@+id/myself_learnEnglish"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginTop="15dp"

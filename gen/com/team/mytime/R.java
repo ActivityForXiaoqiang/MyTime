@@ -70,11 +70,11 @@ public final class R {
         public static final int main_listview=0x7f080012;
         public static final int main_myself_btn=0x7f08001d;
         public static final int mysef_login_out=0x7f08001a;
-        public static final int myself_dingdan=0x7f080016;
+        public static final int myself_gOut=0x7f080017;
         public static final int myself_info=0x7f080014;
-        public static final int myself_jifen=0x7f080018;
-        public static final int myself_kajuan=0x7f080017;
+        public static final int myself_learnEnglish=0x7f080018;
         public static final int myself_taolun=0x7f080019;
+        public static final int myself_tracks=0x7f080016;
         public static final int password=0x7f08000e;
         public static final int person_taste=0x7f080015;
         public static final int regist_layout=0x7f080010;
