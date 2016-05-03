@@ -13,7 +13,7 @@ import cn.bmob.v3.BmobUser;
 
 public class MySelfActivity extends BaseActivity {
 
-	RelativeLayout chat;
+	RelativeLayout chat, mine, tracks, outside, english;
 	TextView loginOut;
 
 	@Override
@@ -30,7 +30,14 @@ public class MySelfActivity extends BaseActivity {
 		chat.setOnClickListener(btn_click_listenr);
 		loginOut = (TextView) findViewById(R.id.mysef_login_out);
 		loginOut.setOnClickListener(btn_click_listenr);
-
+		mine = (RelativeLayout) findViewById(R.id.myself_info);
+		tracks = (RelativeLayout) findViewById(R.id.myself_tracks);
+		outside = (RelativeLayout) findViewById(R.id.myself_gOut);
+		english = (RelativeLayout) findViewById(R.id.myself_learnEnglish);
+		mine.setOnClickListener(btn_click_listenr);
+		tracks.setOnClickListener(btn_click_listenr);
+		outside.setOnClickListener(btn_click_listenr);
+		english.setOnClickListener(btn_click_listenr);
 	}
 
 	OnClickListener btn_click_listenr = new OnClickListener() {
@@ -48,6 +55,15 @@ public class MySelfActivity extends BaseActivity {
 					finish();
 				}
 				break;
+			case R.id.myself_info:
+				break;
+			case R.id.myself_tracks:
+				break;
+			case R.id.myself_gOut:
+				break;
+			case R.id.myself_learnEnglish:
+				break;
+
 			default:
 				break;
 			}
